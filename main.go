@@ -19,7 +19,7 @@ import (
 const progname = "merchant_api"
 
 // Version of the app to be incremented automatically build script (Please keep on single line)
-const version = "0.1.0"
+const version = "0.1.1"
 
 // Commit string injected at build with -ldflags -X...
 var commit string
