@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"strings"
+	// "strings"
 
 	"github.com/bitcoin-sv/merchantapi-reference/config"
 	"github.com/bitcoin-sv/merchantapi-reference/utils"
@@ -37,7 +37,7 @@ func getJSON(URL string) (string, error) {
 
 	client := &http.Client{}
 
-	if strings.HasPrefix(URL, "https") {
+	if false { //strings.HasPrefix(URL, "https") {
 		// Read the key pair to create certificate
 		cert, err := tls.LoadX509KeyPair("client1.crt", "client1.key")
 		if err != nil {

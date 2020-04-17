@@ -1,0 +1,14 @@
+.git
+build
+tmp
+live_tests
+Gemfile.lock
+log
+public/assets/
+bitcoin-rpc-adapter-service/
+frontend/
+phantomjs/
+dist/
+.env
+node_modules/
+yarn.lock 
