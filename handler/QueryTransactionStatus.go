@@ -17,7 +17,6 @@ import (
 // QueryTransactionStatus comment
 func QueryTransactionStatus(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DELETE")
-	w.Header().Set("Access-Control-Allow-Headers", "X-Requested-With,content-type")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Access-Control-Allow-Headers", "X-Requested-With,Content-Type,Authorization")
 	if r.Method == http.MethodOptions {
